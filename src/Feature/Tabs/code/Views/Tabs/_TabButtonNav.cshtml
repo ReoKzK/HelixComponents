@@ -1,0 +1,6 @@
+﻿@model HelixComponents.Feature.Tabs.ViewModels.TabItemViewModel
+
+@using (Html.Glass().BeginEditFrame("/sitecore/content/Applications/WebEdit/Custom Experience Buttons/HelixComponents/Tabs", @Model.Id.ToString(), "Tab"))
+{
+    <a href="#@Model.Id" @Model.CampaignCategoriesAttr aria-controls="@Model.Id" role="tab" data-toggle="custom-pill" class="card @Model.ActiveClass">@Model.Title</a>
+}

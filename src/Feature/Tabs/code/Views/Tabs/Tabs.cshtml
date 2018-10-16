@@ -1,0 +1,27 @@
+﻿@model HelixComponents.Feature.Tabs.ViewModels.TabsViewModel
+
+@{
+    Model.ComponentClass = "tabs";
+}
+
+@if (!Model.ContainsMinimumTabs)
+{
+    <p>Please add a minimum of 2 tabs</p>
+}
+else
+{
+    <div data-tabs-id="@Model.Id">
+        <ul class="nav nav-tabs" role="tablist">
+            @foreach (var tab in Model.TabItems)
+            {
+            @Html.Partial("_TabNav", tab)
+            }
+        </ul>
+        <div class="tab-content">
+            @foreach (var tab in Model.TabItems)
+            {
+            @Html.Partial("_TabContent", tab)
+            }
+        </div>
+    </div>
+}

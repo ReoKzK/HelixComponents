@@ -1,0 +1,9 @@
+﻿@model HelixComponents.Feature.Tabs.ViewModels.TabItemViewModel
+
+<div role="tabpanel" class="tab-pane @Model.ActiveClass" id="@Model.Id" @Model.CampaignCategoriesAttr>
+    <h3 class="mobile-title">@Model.Title</h3>
+    @using (Html.Glass().BeginEditFrame("/sitecore/content/Applications/WebEdit/Custom Experience Buttons/HelixComponents/Tabs", Model.Id.ToString(), "Tab"))
+    {
+        @Html.Sitecore().DynamicPlaceholder($"campaigndynamictabcontent_{Model.Id}")
+    }
+</div>

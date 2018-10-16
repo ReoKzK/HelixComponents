@@ -1,0 +1,31 @@
+﻿@model HelixComponents.Feature.Tabs.ViewModels.TabsViewModel
+
+@{
+    Model.ComponentClass = "tab-buttons";
+}
+
+@if (!Model.ContainsMinimumTabs)
+{
+    <p>Please add a minimum of 2 tabs</p>
+}
+else
+{
+    <div data-tabs-id="@Model.Id">
+        <nav class="flex-cols cols-6" role="tablist">
+            @foreach (var tab in Model.TabItems)
+            {
+                @Html.Partial("_TabButtonNav", tab)
+            }
+        </nav>
+        <div class="tab-content" id="popup-@Model.Id">
+            <div class="close-tab-overlay"></div>
+            <div class="tab-content-inner">
+                
+                @foreach (var tab in Model.TabItems)
+                {
+                    @Html.Partial("_TabContent", tab)
+                }
+            </div>
+        </div>
+    </div>
+}

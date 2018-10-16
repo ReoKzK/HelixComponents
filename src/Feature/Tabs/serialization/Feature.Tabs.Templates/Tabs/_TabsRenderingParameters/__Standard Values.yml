@@ -1,0 +1,14 @@
+﻿---
+ID: "1223e7ae-7478-41f6-81ec-c3cd64c6c934"
+Parent: "3e124f91-c554-48fa-ac46-5d34e178a5b4"
+Template: "3e124f91-c554-48fa-ac46-5d34e178a5b4"
+Path: /sitecore/templates/Feature/Tabs/_TabsRenderingParameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170824T142210Z
