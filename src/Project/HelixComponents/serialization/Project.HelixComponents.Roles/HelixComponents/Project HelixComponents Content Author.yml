@@ -1,0 +1,8 @@
+---
+Role: |
+  HelixComponents\Project HelixComponents Content Author
+MemberOf:
+  Role: |
+    sitecore\Author
+  Role: |
+    sitecore\Designer
