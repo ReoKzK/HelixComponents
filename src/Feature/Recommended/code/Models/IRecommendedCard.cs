@@ -8,7 +8,6 @@ namespace HelixComponents.Feature.Recommended.Models
         string Title { get; set; }
         string Body { get; set; }
         Image Image { get; set; }
-        Link CallToActionLink { get; set; }
-        string CallToActionText { get; set; }
+        Link CallToAction { get; set; }
     }
 }

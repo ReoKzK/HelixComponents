@@ -60,9 +60,8 @@ namespace HelixComponents.Feature.Recommended.Mediators
             recommendedCardViewModel.Title = new HtmlString(_glassHtml.Editable(card, i => i.Title));
             recommendedCardViewModel.Body = new HtmlString(_glassHtml.Editable(card, i => i.Body));
             recommendedCardViewModel.Image = new HtmlString(_glassHtml.RenderImage(card, i => i.Image, isEditable: true));
-            recommendedCardViewModel.CallToActionLink = new HtmlString(_glassHtml.RenderLink(card, i => i.CallToActionLink));
-            recommendedCardViewModel.CallToActionText = new HtmlString(_glassHtml.Editable(card, i => i.CallToActionText));
-            recommendedCardViewModel.Url = card.CallToActionLink?.Url;
+            recommendedCardViewModel.CallToActionLink = new HtmlString(_glassHtml.RenderLink(card, i => i.CallToAction));
+            recommendedCardViewModel.Url = card.CallToAction?.Url;
 
             return recommendedCardViewModel;
         }

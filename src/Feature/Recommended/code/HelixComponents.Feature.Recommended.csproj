@@ -145,6 +145,7 @@
     <Compile Include="Models\IRecommendedPages.cs" />
     <Compile Include="Models\IRecommendedPagesDisplayType.cs" />
     <Compile Include="Models\IRecommendedPagesRenderingParameters.cs" />
+    <Compile Include="ORM\GlassMappings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\IRecommendedService.cs" />
     <Compile Include="Services\RecommendedService.cs" />
