@@ -1,7 +1,7 @@
-﻿using System.Web.Mvc;
-using HelixComponents.Feature.Recommended.Mediators;
+﻿using HelixComponents.Feature.Recommended.Mediators;
 using HelixComponents.Foundation.Core.Exceptions;
 using Sitecore.Mvc.Controllers;
+using System.Web.Mvc;
 
 namespace HelixComponents.Feature.Recommended.Controllers
 {

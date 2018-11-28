@@ -122,8 +122,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Feature\HelixComponents.Feature.Tabs.config" />
-    <Content Include="App_Config\Include\Feature\HelixComponents.Feature.Tabs.Serialization.config" />
+    <Content Include="App_Config\Include\Feature\Feature.Tabs.config" />
+    <Content Include="App_Config\Include\Feature\Feature.Tabs.Serialization.config" />
     <Content Include="App_Config\Include\Feature\Feature.Hero.RegisterContainer.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Tabs\TabButtons.cshtml" />

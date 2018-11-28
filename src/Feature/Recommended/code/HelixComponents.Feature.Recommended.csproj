@@ -122,8 +122,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Feature\HelixComponents.Feature.Recommended.config" />
-    <Content Include="App_Config\Include\Feature\HelixComponents.Feature.Recommended.Serialization.config" />
+    <Content Include="App_Config\Include\Feature\Feature.Recommended.config" />
+    <Content Include="App_Config\Include\Feature\Feature.Recommended.Serialization.config" />
+    <Content Include="App_Config\Include\Feature\Feature.Recommended.RegisterContainer.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <Content Include="Views\Recommended\RecommendedPages.cshtml" />
     <Content Include="Views\Recommended\Error.cshtml" />
@@ -137,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\RecommendedController.cs" />
+    <Compile Include="DI\RegisterContainer.cs" />
     <Compile Include="Mediators\IRecommendedMediator.cs" />
     <Compile Include="Mediators\RecommendedMediator.cs" />
     <Compile Include="Models\IRecommendedCard.cs" />

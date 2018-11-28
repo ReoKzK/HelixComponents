@@ -1,6 +1,6 @@
----
-ID: "bd93781f-d302-4e7b-a9ec-894163151827"
-Parent: "8f343079-3cc5-4ef7-bc27-32addb46f45e"
+﻿---
+ID: "d941e720-51be-446c-84ed-80086e0dc80c"
+Parent: "1b85ea02-e3f6-4d37-b815-867693664711"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Feature/Notifications
 DB: master
@@ -11,7 +11,8 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20170101T00000Z
+      Value: 20181128T113505Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
-      Value: sitecore\admin
+      Value: |
+        sitecore\admin

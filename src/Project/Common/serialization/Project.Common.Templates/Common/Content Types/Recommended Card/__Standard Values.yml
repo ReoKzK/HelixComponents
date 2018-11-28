@@ -1,0 +1,18 @@
+﻿---
+ID: "19292efc-fa64-4359-9c2c-d98fc71f5bc2"
+Parent: "579321c2-60b7-4ff5-bf1d-f58635210339"
+Template: "579321c2-60b7-4ff5-bf1d-f58635210339"
+Path: /sitecore/templates/Project/Common/Content Types/Recommended Card/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181128T121140Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
